@@ -7,6 +7,15 @@ terraform {
   }
 }
 
+terraform {
+  backend "s3" {
+    bucket = "your-bucket-name"
+    key    = "path/to/key/terraform.tfstate"
+    region = "us-east-1"
+    dynamodb_table = "dynamodbtablename"
+  }
+}
+
 
 provider "aws" {
   region = "us-east-1"
