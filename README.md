@@ -1,4 +1,4 @@
-# terraform-ec2-alb
+# Terraform-ec2-alb
 This repository contains terraform code to create VPC, ec2 instances and ALB 
 
 I have added modules to create infrastructure using terraform. Modules include application load balancer, ec2, security group and vpc.
